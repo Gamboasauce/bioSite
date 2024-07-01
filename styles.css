@@ -43,7 +43,7 @@ main {
     text-align: center;
     background-color: #F6F2FB; /* Very light purple */
     border-radius: 10px;
-    margin: 2rem;
+    margin: 2rem 2rem 100px 2rem; /* Adjusted bottom margin for more space */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -62,4 +62,17 @@ footer {
     height: auto;
     border-radius: 50%;
     border: 3px solid #ECC5ED; /* Light pink */
+}
+
+.intro-photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.intro-photos img {
+    width: 48%;
+    max-width: 300px;
+    margin: 10px auto;
 }
