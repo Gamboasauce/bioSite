@@ -71,8 +71,18 @@ footer {
     margin: 20px 0;
 }
 
-.intro-photos img {
-    width: 48%;
+.intro-photos img, .hobby-photo {
+    width: 30%; /* Leaves room for 3 images */
     max-width: 300px;
     margin: 10px auto;
+    border: 3px solid #ECC5ED; /* Light pink border */
+    border-radius: 10px; /* rounded corners */
+}
+
+.hobby-photo {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    border: 3px solid #ECC5ED; /* Same Light pink border */
+    border-radius: 10px; 
 }
